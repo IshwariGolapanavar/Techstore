@@ -1,0 +1,156 @@
+header,footer{
+    background-color:black;
+    padding: 20px 10px;
+}
+body{
+    background:white;
+    max-width:1000px;
+    margin:0auto;
+    color:rgb(49,50,48)
+}
+ul{
+    margin:0;
+    padding:0;
+}
+header li{
+    display:inline;
+}
+header h1,nav{
+    display:inline-block;
+
+}
+/*header h1{
+    width:70%;
+}*/
+.product {
+    box-sizing:border-box;
+    border:2px solid skyblue;
+    width: 300px;
+    margin: 5px;
+    padding:5px;
+    display:inline-block;
+    text-align:center;
+}
+img{
+    max-width:100%;
+    max-height:100%;
+}
+#name{
+    background-color:blanchedalmond;
+}
+/*
+main{
+    width:680px;
+    display:inline-block;
+    padding: 10px;
+}
+aside{
+    width:270px;
+    display:inline-block;
+    vertical-align:top;
+    padding: 10px;;
+}
+
+li{
+    list-style: circle;
+}
+*/
+a{
+ text-decoration:none;
+ color:orange; 
+}
+a:hover{
+    color:blue;
+}
+.button{
+    padding: 10px;
+    display: inline-block;
+}
+/*h1:first-of-type{
+    color:red;
+}*/
+.button:last-of-type{
+    background-color: blue;
+    color:white;
+    display: inline-block;
+}
+/* product details
+*/
+.product-detail{
+    width:500px;
+}
+.product-detail img{
+    max-width:50px;
+    float:left;
+}/*table*/
+table{
+    width:400px;text-align:left;margin:20px 0;
+}
+.position{
+    /*position:sticky;*/
+    top:10px;
+    left:10px;
+}
+.inline label{
+    display:inline-block;
+    width:100px;
+}
+/*input[type="text"],input[type="email"]
+{
+padding:10px;
+width:400px;
+}*/
+form > div{
+    margin:10px 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background:white;
+    margin:0 auto;
+    color:rgb(27, 190, 208);
+    text-align:center;
+}
+@media(min-width:200px) and(max-width:600px)
+{
+    
+    ul{
+        color:blue;
+    }
+    input[type="search"]{
+        width:100%;
+    }
+        .product{
+            display:inline-block;
+            width:48px;
+        }
+    }
+@media(min-width:1000px){
+    main{
+        width:680px;
+        display:inline-block;
+        padding: 10px;
+    }
+    aside{
+        width:270px;
+        display:inline-block;
+        vertical-align:top;
+        padding: 10px;;
+    }
+    body{
+        text-align:left;
+    }
+    header h1{
+        width:100%;
+    }
+}
+@media(min-width:1200px){
+    body{
+        max-width:100%;;
+    }
+    .product{
+        width:30%;
+    }
+    input[type="search"]{
+        width:20%;
+    }
+}
